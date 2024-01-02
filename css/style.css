@@ -112,8 +112,8 @@ html {
 
     .zoom-img2 {
         border-radius: 50%;
-        width: 75%;
-        height: 75%;
+        width: 200PX;
+        height: 200PX;
         overflow: hidden;
         box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.5);
         transition: 3s;
@@ -227,6 +227,11 @@ html {
     .zoom-img {
         width: 250px;
         height: 250px;
+    }
+
+    .zoom-img2 {
+        width: 60%;
+        height: 60%;
     }
 
     .myskill .card-img-top {
