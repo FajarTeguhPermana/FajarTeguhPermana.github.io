@@ -71,10 +71,6 @@ html {
     
 }
 
-.jumbotron .col-lg-6 img:hover {
-    filter: opacity(.8) ;
-    transform: rotate(25deg) scale(1.2);
-}
 
 /* CONTAINER */
 
@@ -125,16 +121,12 @@ html {
     }
 
     .zoom-img2 img{
-        transform: scale(1.1);
+        transform: scale(1);
         cursor: pointer;
         transition: 3s;
     }
 
-    .zoom-img2 img:hover {
-        transform: scale(1);
-        transition: 3s;
-    }
-
+    
     /* MY SKILL */
     #SKILL {
         transition: 2.5s;
@@ -211,7 +203,6 @@ html {
         margin: auto;
         padding-bottom: 5px;
         margin-bottom: -8px;
-        
     }
 
 
@@ -229,9 +220,19 @@ html {
         height: 250px;
     }
 
+    .jumbotron .col-lg-6 img:hover {
+        filter: opacity(.8) ;
+        transform: rotate(25deg) scale(1.2);
+    }
+
     .zoom-img2 {
         width: 60%;
         height: 60%;
+    }
+
+    .zoom-img2 img:hover {
+        transform: scale(1.1);
+        transition: 3s;
     }
 
     .myskill .card-img-top {
