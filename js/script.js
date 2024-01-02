@@ -9,7 +9,7 @@ function handleScroll() {
 
 function opacityABout() {
     var scrollPosition = window.scrollY;
-    if (scrollPosition > 200) {
+    if (scrollPosition > 300) {
         document.getElementById('ABOUT').classList.remove('effect3');
     } else {
         document.getElementById('ABOUT').classList.add('effect3');
